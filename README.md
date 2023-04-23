@@ -33,6 +33,7 @@ O de la siguiente forma si es para grupos de la computadora local.
 La segunda sobrecarga recibe un RID (Role Identifier) y la tercera recibe una enumeración WindowsBuiltInRole
 La tabla siguiente lista los identificadores del rol con su correspondiente valor en la enumeración WindowsBuiltInRole
 
+<pre>
 +----------------+------+
 |AccountOperator |0x224 |
 |Administrator   |0x220 |
@@ -44,6 +45,8 @@ La tabla siguiente lista los identificadores del rol con su correspondiente valo
 |SystemOperator  |0x225 |
 |User            |0x221 |
 +----------------+------+
+</pre>
+
 El siguiente programa demuestra el uso de la primera técnica de validación para conocer la autorización de una entidad. Descarga el código fuente del programa de este enlace.
 
 Al compilar y ejecutar el programa con una cuenta de administrador mostrará el siguiente resultado:
