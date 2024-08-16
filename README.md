@@ -72,20 +72,20 @@ La tabla siguiente lista los identificadores del rol con su correspondiente valo
 El siguiente programa demuestra el uso de la primera técnica de validación para conocer la autorización de una entidad. 
 </p>
 Al compilar y ejecutar el programa con una cuenta de administrador mostrará el siguiente resultado:
-<img src="sprincipal.png">
+<img src="images/sprincipal.png">
 Ahora bien, si ejecutamos el programa con el comando
 <pre>
 runas /user:[Usuario] [Programa]
 </pre>
 en este caso con la cuenta del usuario postgres,como se muestra en la imagen:
-<img src="runas.png"/>
+<img src="images/runas.png"/>
 El programa mostrará el siguiente resultado:
-<img src="sprincipal2.png"/>
+<img src="images/sprincipal2.png"/>
 <p align="justify">
 Y ahora demostramos la segunda técnica utilizando la política del dominio de la aplicación, algo más elaborado que el ejemplo anterior. Descarga el código fuente de este ejemplo de este enlace. Al compilar las clases y ejecutar el programa con la opción false nos mostrará la excepción de que no hemos establecido una política de autorización.
 </p>
-<img src="sprincipalt1.png">
+<img src="images/sprincipalt1.png">
 Si ejecutamos el programa sin argumentos nos mostrará las instrucciones de uso.
-<img src="sprincipalt2.png"/>
+<img src="images/sprincipalt2.png"/>
 Si ejecutamos el programa correctamente,nos mostrará la información como en la siguiente imagen
-<img src="sprincipalt3.png"/>
+<img src="images/sprincipalt3.png"/>
